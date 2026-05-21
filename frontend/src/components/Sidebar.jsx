@@ -83,14 +83,6 @@ const Sidebar = () => {
           </div>
           <ThemeToggle />
         </div>
-
-        <button
-          onClick={handleLogout}
-          className="flex items-center space-x-3 w-full px-4 py-3 rounded-xl text-sm font-medium text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/20 transition-all duration-300 active:scale-95 group"
-        >
-          <LogOut className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-0.5" />
-          <span>Sign Out</span>
-        </button>
       </div>
     </aside>
   );
